@@ -26,5 +26,7 @@ if __name__ == "__main__":
     print ("Valor inicial del contador", c.value)
     for p in lp:
         p.start()
+    for p in lp:
+        p.join()
         
         
